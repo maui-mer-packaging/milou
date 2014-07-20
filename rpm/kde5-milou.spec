@@ -75,7 +75,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %{_datadir}/kservicetypes5/*
-%{_kde5_libdir}/libmilou.so
+%{_kde5_libdir}/libmilou.so.*
 %{_kde5_libdir}/qml/org/kde/milou
 %{_kde5_datadir}/plasma/plasmoids/*
 %{_datadir}/kservices5/*
