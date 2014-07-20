@@ -40,6 +40,8 @@ PkgConfigBR:
     - Qt5Widgets
     - Qt5Concurrent
     - Qt5Test
+    - Qt5Qml
+    - Qt5Quick
     - Qt5XmlPatterns
     - Qt5Script
     - Qt5WebKit
