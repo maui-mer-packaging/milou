@@ -1,4 +1,4 @@
-Name         : kde5-milou
+Name         : milou
 Version      : 5.0.0
 Release      : 1
 Group        : System/Base
@@ -22,15 +22,14 @@ Configure    : none
 Builder      : none
 
 PkgBR:
-    - kde5-rpm-macros
+    - kf5-rpm-macros
     - extra-cmake-modules
     - qt5-tools
-    - kf5-umbrella
-    - kf5-krunner-devel
-    - kf5-plasma-devel
-    - kf5-ki18n-devel
-    - kf5-kdeclarative-devel
-    - kf5-baloo-devel
+    - krunner-devel
+    - plasma-devel
+    - ki18n-devel
+    - kdeclarative-devel
+    - baloo-devel
 PkgConfigBR:
     - Qt5Core
     - Qt5DBus
@@ -46,7 +45,7 @@ PkgConfigBR:
     - Qt5Script
     - Qt5WebKit
 Requires:
-    - kde5-filesystem
+    - kf5-filesystem
 
 RequiresPost:
     - /sbin/ldconfig
@@ -54,8 +53,8 @@ RequiresPostUn:
     - /sbin/ldconfig
 
 Files:
-    - "%{_datadir}/kservicetypes5/*"
-    - "%{_kde5_libdir}/libmilou.so.*"
+    - "%{_kf5_servicesdir}/*"
+    - "%{_kf5_servicetypesdir}/*"
+    - "%{_kf5_libdir}/libmilou.so.*"
     - "%{_kf5_qmldir}/org/kde/milou"
-    - "%{_kde5_datadir}/plasma/plasmoids/*"
-    - "%{_datadir}/kservices5/*"
+    - "%{_kf5_sharedir}/plasma/plasmoids/*"
