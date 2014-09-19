@@ -58,3 +58,4 @@ Files:
     - "%{_kf5_libdir}/libmilou.so.*"
     - "%{_kf5_qmldir}/org/kde/milou"
     - "%{_kf5_sharedir}/plasma/plasmoids/*"
+    - "%{_kf5_plugindir}/*"

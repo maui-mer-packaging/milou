@@ -8,6 +8,12 @@ Name:       milou
 # >> macros
 # << macros
 
+# >> bcond_with
+# << bcond_with
+
+# >> bcond_without
+# << bcond_without
+
 Summary:    A dedicated KDE search application built on top of Baloo
 Version:    5.0.0
 Release:    1
@@ -78,5 +84,6 @@ rm -rf %{buildroot}
 %{_kf5_libdir}/libmilou.so.*
 %{_kf5_qmldir}/org/kde/milou
 %{_kf5_sharedir}/plasma/plasmoids/*
+%{_kf5_plugindir}/*
 # >> files
 # << files
