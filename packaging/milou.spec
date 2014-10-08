@@ -9,7 +9,7 @@ Name:       milou
 # << macros
 
 Summary:    A dedicated KDE search application built on top of Baloo
-Version:    5.0.0
+Version:    5.0.95
 Release:    1
 Group:      System/Base
 License:    GPLv2+
