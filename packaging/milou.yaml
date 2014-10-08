@@ -7,7 +7,6 @@ Summary      : A dedicated KDE search application built on top of Baloo
 Description  : |
   A dedicated KDE search application built on top of Baloo.
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"
